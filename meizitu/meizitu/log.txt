@@ -1,0 +1,241 @@
+2019-01-09 21:01:24 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2019-01-09 21:01:24 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:23:52) [MSC v.1900 32 bit (Intel)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17134-SP0
+2019-01-09 21:01:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'SPIDER_MODULES': ['meizitu.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'}
+2019-01-09 21:01:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-01-09 21:01:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-01-09 21:01:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-01-09 21:01:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeizituPipeline']
+2019-01-09 21:01:25 [scrapy.core.engine] INFO: Spider opened
+2019-01-09 21:01:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-01-09 21:01:25 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-01-09 21:01:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes> (referer: None)
+2019-01-09 21:01:28 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=60&Nao=60> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2019-01-09 21:01:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes)
+2019-01-09 21:01:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=3060&Nao=3060> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes)
+2019-01-09 21:01:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=120&Nao=120> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes)
+2019-01-09 21:01:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=60&Nao=60> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes)
+2019-01-09 21:01:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:291471/sku:DB0895/adidas-adizero-5-star-7.0-adimoji-mens/gold/black/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:291471/sku:DB0895/adidas-adizero-5-star-7.0-adimoji-mens/gold/black/>
+{'color': 'Metallic Gold/Black/Raw Gold',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>The adidas adiZero 5-Star 7.0 adiMoji are '
+            'here to light up the football field. Boasting incredible looks '
+            "from multiple emoji prints, these cleats will have everyone's "
+            'attention on you. But they go beyond style. The adiZero 5-Star '
+            '7.0 are lightweight and built for speed. They deliver precise '
+            'traction for quick cuts and acceleration so you can burn past '
+            "defenders or chase down the football. Here's the tech:</p> <ul> "
+            '<li>SPRINTSKIN™ technology wraps the upper in a laminated package '
+            'that is both lightweight and supportive.</li> <li>TechFit bootie '
+            'construction provides a lockdown fit so you experience a close '
+            'connection with your movements.</li> <li>EVA insole adds '
+            'comfort.</li> <li>Reinforced top plate optimizes strength and '
+            'traction.</li> <li>5-Star frame is ultra-strong and incredibly '
+            'light, it delivers advanced traction for high-speed play.</li> '
+            '<li>Wt. 9.6 oz.</li> </ul></div>',
+ 'price': '$130.00',
+ 'sku': 'DB0895',
+ 'title': "adidas adiZero 5-Star 7.0 adiMoji - Men's"}
+2019-01-09 21:01:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:289835/sku:CQ0991/adidas-originals-crazy-byw-mens/black/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.eastbay.com/product/model:289835/sku:CQ0991/adidas-originals-crazy-byw-mens/black/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+Traceback (most recent call last):
+  File "E:\ppppppp\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ppppppp\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ppppppp\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ppppppp\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ppppppp\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\11AAAAAA飞秋接收文件\第四阶段爬虫\meizitu\meizitu\meizitu\spiders\meizi.py", line 53, in downss
+    color = response.css('.attType_color::text').extract()[0]
+IndexError: list index out of range
+2019-01-09 21:01:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:273280/sku:B37490/adidas-adizero-hj-mens/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:273280/sku:B37490/adidas-adizero-hj-mens/white/>
+{'color': 'White/Core Black/Shock Red',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>Take flight with the lightweight and '
+            'supportive adidas adiZero HJ.</p> <ul> <li>Stitchless upper with '
+            'SPRINTWEB overlay for lightweight support and lockdown.</li> '
+            "<li>Coolever mesh lining's clover-shaped yarns wick away sweat to "
+            'keep you dry, fresh, and focused.</li> <li>EVA midsole for '
+            'lightweight cushioning with every step.</li> <li>Pebax plate '
+            'provides a rigid, stable platform strong enough to withstand an '
+            'explosive approach and takeoff.</li> <li>Sharkskin traction '
+            'pattern and spikes grip the track during your approach for the '
+            'power you need to make a clean jump.</li> <li>Includes 3/8" '
+            'pyramid spikes and wrench.</li> <li>Wt. 9.1 oz.</li> </ul></div>',
+ 'price': '$110.00',
+ 'sku': 'B37490',
+ 'title': "adidas adiZero HJ - Men's"}
+2019-01-09 21:01:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:297308/sku:CG5982/adidas-harden-bte-x-mens/james-harden/white/black/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:297308/sku:CG5982/adidas-harden-bte-x-mens/james-harden/white/black/>
+{'color': 'White/Black',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>The adidas Harden BTE X is made for '
+            'comfort and a responsive feel on the hardwood. Extra lockdown and '
+            'responsiveness lets you breakaway from defenders with ease.</p> '
+            '<ul> <li>Knit upper with synthetic overlays offers a flexible, '
+            'durable fit.</li> <li>Bounce cushioning is made for enhanced '
+            'comfort underfoot.</li> <li>Harden details on the outsole and a '
+            'visible shank offer traction and a responsive feel '
+            'underfoot.</li> <li>Sock-like construction provides a snug '
+            'fit.</li> </ul></div>',
+ 'price': '$110.00',
+ 'sku': 'CG5982',
+ 'title': "adidas Harden BTE X - Men's"}
+2019-01-09 21:01:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:287944/sku:CW1275/adidas-originals-superstar-track-pants-mens/black/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:287944/sku:CW1275/adidas-originals-superstar-track-pants-mens/black/white/>
+{'color': 'Black',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>Get authentic 3-Stripes style and modern '
+            'comfort with the adidas Originals Superstar Track Pants.</p> <ul> '
+            '<li>Jersey backing provides extra comfort.</li> <li>Authentic '
+            '3-Stripes down the legs finish the classic look.</li> <li>70% '
+            'polyester/30% cotton. Imported.</li> </ul></div>',
+ 'price': '$65.00',
+ 'sku': 'CW1275',
+ 'title': "adidas Originals Superstar Track Pants - Men's"}
+2019-01-09 21:01:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:287568/sku:CQ3023/adidas-originals-prophere-mens/grey/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:287568/sku:CQ3023/adidas-originals-prophere-mens/grey/white/>
+{'color': 'Grey/White/Solar Red',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>The adidas Originals Prophere launches '
+            'the next era of streetwear with an unexpected look fueled by a '
+            'strong adidas identity. Enhanced by raw edge details and '
+            'embroidery, they feature a knit upper with small pops of\xa0color '
+            'to create a melange effect.</p> <ul> <li>Synthetic suede '
+            'upper.</li> <li>Polyurethane midsole.</li> <li>Rubber '
+            'outsole.</li> </ul></div>',
+ 'price': '$119.99',
+ 'sku': 'CQ3023',
+ 'title': "adidas Originals Prophere - Men's"}
+2019-01-09 21:01:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:258371/sku:G27916/adidas-originals-nmd-r1-mens/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:258371/sku:G27916/adidas-originals-nmd-r1-mens/white/>
+{'color': 'White/Bold Blue/Black',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p><strong>Feel a Boost Every Day, Every '
+            'Step</strong><br>The sporty-looking adidas Originals NMD R1 '
+            'carries the distinctive Three Stripes performance vibe in a shoe '
+            'designed for casual daily wear. But, below the surface, there’s '
+            'an added advantage – the famed adidas full-length Boost midsole '
+            'makes its first appearance in a lifestyle sneaker. So, whether '
+            'you’re hoofing it across town or putting in time at the gym, '
+            'high-performance cushioning will keep your feet feeling fresh and '
+            'comfortable.<br><br>A Streetwear Fashion Hit<br>Stride in style, '
+            'sporting the sleek silhouette of the popular sneak nicknamed the '
+            'NOMAD, and often seen among the celebrity crowd. An understated, '
+            'one-piece mesh upper, three-stripes branding, signature heel '
+            'pull, and outsole details combine for a tasteful fashion '
+            'statement. <br><br>•One-piece, lightweight mesh upper offers a '
+            'snug fit.<br>•Full-length Boost midsole for top-performance '
+            'cushioning.<br>•Signature EVA plugs embedded in sole provide '
+            'additional stability.<br>•Rubber outsole design improves '
+            'flexibility and ensures effective grip.</p></div>',
+ 'price': '$130.00',
+ 'sku': 'G27916',
+ 'title': "adidas Originals NMD R1 - Men's"}
+2019-01-09 21:01:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:289837/sku:CQ2627/adidas-originals-deerupt-runner-mens/grey/grey/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:289837/sku:CQ2627/adidas-originals-deerupt-runner-mens/grey/grey/>
+{'color': 'Grey/Grey/White',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>Minimalism can be bold, as shown by these '
+            '‘80s-inspired adidas Deerupt Runners. These ultralight shoes '
+            'include a knit upper and supportive stretch-web overlay. Foam '
+            'pockets around your heel lock in your foot, and soft foam pockets '
+            'on the footbed offer you distinct comfort.</p> <ul> '
+            '<li>Web-wrapped EVA midsole and OrthoLite sockliner provide a '
+            'comfortable feel</li> <li>Zoned cushioning on the insole and '
+            'rubber outsole offer premium comfort and traction</li> '
+            '</ul></div>',
+ 'price': '$100.00',
+ 'sku': 'CQ2627',
+ 'title': "adidas Originals Deerupt Runner - Men's"}
+2019-01-09 21:01:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:289837/sku:B41768/adidas-originals-deerupt-runner-mens/black/black/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:289837/sku:B41768/adidas-originals-deerupt-runner-mens/black/black/>
+{'color': 'Black/Black/White',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>Minimalism can be bold, as shown by these '
+            '‘80s-inspired adidas Deerupt Runners. These ultralight shoes '
+            'include a knit upper and supportive stretch-web overlay. Foam '
+            'pockets around your heel lock in your foot, and soft foam pockets '
+            'on the footbed offer you distinct comfort.</p> <ul> '
+            '<li>Web-wrapped EVA midsole and OrthoLite sockliner provide a '
+            'comfortable feel</li> <li>Zoned cushioning on the insole and '
+            'rubber outsole offer premium comfort and traction</li> '
+            '</ul></div>',
+ 'price': '$100.00',
+ 'sku': 'B41768',
+ 'title': "adidas Originals Deerupt Runner - Men's"}
+2019-01-09 21:01:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:296586/sku:DU7784/adidas-originals-trefoil-p%252Fo-hoodie-mens/cardinal/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:296586/sku:DU7784/adidas-originals-trefoil-p%252Fo-hoodie-mens/cardinal/>
+{'color': 'Collegiate Burgundy',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p>Rock prime Trefoil style with the adidas '
+            'Originals Trefoil Pullover Hoodie.</p> <ul> <li>Features a rubber '
+            'print Trefoil logo on the chest.</li> <li>Heavyweight French '
+            'terry fabric includes a washed finish for extra comfort.</li> '
+            '<li>100% cotton French terry. Imported.</li> </ul></div>',
+ 'price': '$70.00',
+ 'sku': 'DU7784',
+ 'title': "adidas Originals Trefoil P/O Hoodie - Men's"}
+2019-01-09 21:01:45 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-01-09 21:01:45 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-01-09 21:01:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eastbay.com/product/model:304142/sku:G27745/adidas-marquee-boost-low-mens/white/> (referer: https://www.eastbay.com/_-_/keyword-mens+adidas+harden+sgoes?cm_PAGE=0&Nao=0)
+2019-01-09 21:01:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eastbay.com/product/model:304142/sku:G27745/adidas-marquee-boost-low-mens/white/>
+{'color': 'White/Off White/Shock Cyan',
+ 'details': '<div tabindex="0" role="tabpanel" data-tab="details" '
+            'data-tabcontent="details" class="tab_content" '
+            'id="pdp_description"><p><strong>A New Star is '
+            'Born</strong><br>The latest release from adidas, the Marquee '
+            'Boost low is an instant hit with fans of lightweight, comfortable '
+            'footwear with athletic performance features, and style that’s '
+            'perfect for casual wear. What makes the Boost line so popular '
+            'with runners, ball players, and on the street? It’s all about '
+            'cushioning technology.<br><br><strong>Innovative '
+            'Foam</strong><br>A handful of years ago, the introduction of the '
+            'adidas Boost white foam sole changed everything for the brand. '
+            'Athletes found that lacing into the shoe resulted in a sensation '
+            'of standing on a squishy, form-fitting mattress. The design also '
+            'provided an extra kick in the form of energy return – a '
+            'noticeably bouncy response to impact. The Boost Marquee low is an '
+            'example of footwear innovation you must experience.</p> <p><br>• '
+            'Lightweight mesh upper offers breathable comfort.<br>• Molded and '
+            'padded ankle collar provides support.<br>• Exclusive Boost '
+            'cushioning absorbs impacts and adds response.<br>• Rubber outsole '
+            'with herringbone pattern ensures traction.</p></div>',
+ 'price': '$120.00',
+ 'sku': 'G27745',
+ 'title': "adidas Marquee Boost Low - Men's"}
+2019-01-09 21:01:46 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
